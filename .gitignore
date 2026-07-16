@@ -1,4 +1,9 @@
 output/*
 !output/.gitkeep
-dist
-node_modules
+dist/
+node_modules/
+.env
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

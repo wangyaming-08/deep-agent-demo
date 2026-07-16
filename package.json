@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "build": "tsup",
-    "dev": "npm run build && node dist/index.mjs",
-    "demo:basic": "npm run build && node dist/demo-basic.mjs",
-    "demo:search": "npm run build && node dist/demo-search.mjs",
-    "demo:multi": "npm run build && node dist/demo-multi-agent.mjs"
+    "dev": "npm run build && node dist/index.js",
+    "demo:basic": "npm run build && node dist/demo-basic.js",
+    "demo:search": "npm run build && node dist/demo-search.js",
+    "demo:multi": "npm run build && node dist/demo-multi-agent.js"
   },
   "dependencies": {
     "openai": "^6.34.0",
